@@ -5,9 +5,9 @@ import { moneytransfer,isAuthenticated } from './helper/apicalls';
 const Moneytransfer = () => {
 
   const [values, setValues] = useState({
-    name: 'a',
-    accountNo: '83873777892',
-    amount: 300,
+    name: '',
+    accountNo: '',
+    amount: '',
     error: '',
     didRedirect: false,
     success:false

@@ -4,7 +4,7 @@ import { signup } from './helper/apicalls';
 import Base from './Base';
 const Signup = () => {
   const [values, setValues] = useState({
-  name: 'r',
+  name: '',
     email: '',
     password: '',
     error: '',

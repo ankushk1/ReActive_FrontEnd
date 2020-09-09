@@ -18,9 +18,7 @@ export default function Home() {
         <div className="row">
         </div>
       </div>)}
-
-
-
+      
       { isAuthenticated() && (<div >
         <Moneytransfer/>
       </div>)}

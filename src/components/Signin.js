@@ -8,8 +8,8 @@ const Signin = (props) => {
 
 
   const [values, setValues] = useState({
-    email: 'a',
-    password: 'a',
+    email: '',
+    password: '',
     error: '',
     loading: false,
     didRedirect: false,
