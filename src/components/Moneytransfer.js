@@ -91,7 +91,7 @@ const Moneytransfer = () => {
         <div className="col-md-6 offset-sm-3 text-left">
           <form>
             <div className="form-group">
-              <label className="text-light"> Name </label>{' '}
+              <label className="text-light"> Payee Name </label>{' '}
               <input
                 onChange={handleChange('name')}
                 value={name}
@@ -100,7 +100,7 @@ const Moneytransfer = () => {
               />
             </div>
             <div className="form-group">
-              <label className="text-light"> Account Number </label>{' '}
+              <label className="text-light"> Payee Account Number </label>{' '}
               <input
                 onChange={handleChange('accountNo')}
                 value={accountNo}
